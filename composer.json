@@ -1,0 +1,21 @@
+{
+    "name": "insektaure/lemp-docker-dev",
+    "type": "project",
+    "license": "MIT",
+    "description": "Basic Test PHP Project",
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.0",
+        "doctrine/dbal": "^4.2.3",
+        "bcosca/fatfree-core": "^3.9.0",
+        "php-amqplib/php-amqplib": "^v3.7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "vendor-dir": "/var/www/vendor"
+    }
+}
